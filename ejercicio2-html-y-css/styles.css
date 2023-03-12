@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box; content-box
+}
+h1{
+    margin: 0;
+    margin-bottom: 10px;
+}
+form{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#58FAD0, #BE81F7);
+    color: white;
+    font-family: Comic Sans MS;
+    box-shadow: 8px 8px 15px #8181F7;
+    position: relative;
+    min-height: 345px;
+}
+
+#email, #password, #genero{
+    width: 100%;
+    margin-bottom: 10px;
+}
+select{
+    width: 100%;
+    padding: 7px;
+}
+button{
+    padding: 5px 15px;
+    display: block;
+    position: absolute;
+    right: 20px;
+}
+#checkbox{
+    margin-bottom: 20px;
+    margin-top: 7px;
+    
+}
+@media(min-width:500px){
+    form{
+        width: 300px;
+    }
+        
+    
+}
+
